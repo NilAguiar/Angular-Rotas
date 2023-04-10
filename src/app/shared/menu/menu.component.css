@@ -1,0 +1,17 @@
+ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 200px;
+}
+ul > li > a {
+  text-decoration: none;
+}
+.activated {
+  color: white;
+  background-color: #369;
+  border-radius: 6px;
+  box-shadow: 2px 4px 6px #369;
+  font-size: larger;
+  padding: 5px 15px;
+}
